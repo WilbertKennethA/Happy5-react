@@ -1,24 +1,54 @@
 .task-card {
     background-color: #fff;
     padding: 10px;
+    border: 1px solid #d6d6d6;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin-bottom: 10px;
-    align-items: start;
+}
+
+.period {
+    height: 85%;
 }
 
 .button {
     display: flex;
-    background-color: #fff;
+    background-color: transparent;
     align-items: center;
     height: 50px;
 }
 
 .plus {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
 }
 
 .button h5 {
     color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    padding-bottom: 10px;
+}
+
+.progress {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.weight {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.option {
+    width: 20px;
+    height: 20px;
 }

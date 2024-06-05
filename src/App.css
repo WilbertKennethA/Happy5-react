@@ -34,7 +34,9 @@
 
 .quarter-section {
   flex: 1;
-  background-color: #f8f8f8;
+  background-color: white;
   padding: 20px;
+  border: 1px solid #d6d6d6;
   border-radius: 8px;
+  /* min-height: 10px; */
 }
